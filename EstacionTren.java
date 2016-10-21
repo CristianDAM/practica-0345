@@ -19,7 +19,14 @@ public class EstacionTren
        }
     public void VentaBilletes()
     {
-        billete = dinero - precio;
+        maquina1.meterDinero(300);
+        maquina2.meterDinero(200);
+        maquina1.imprimirTicket();
+        maquina2.imprimirTicket();
+        
+         
+        
+        
     
     
     }
