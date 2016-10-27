@@ -92,4 +92,12 @@ public class TicketMaquina
     
     
     }
+    public void mostrarPrecio()
+    {
+        System.out.println("#############");
+        System.out.println(" El precio del billete es de "  + precio +   " euros ");
+        System.out.println("#############");
+        
+    
+    }
 }
