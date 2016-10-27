@@ -29,6 +29,13 @@ public class TicketMaquina
         balance = 0;
         total = 0;
     }
+    public  TicketMaquina(int coste)
+    {
+        precio = coste;
+        balance = 0;
+        total = 0;
+    
+    }
 
     /**
      * Return the price of a ticket.
@@ -84,7 +91,7 @@ public class TicketMaquina
     {
          precio = nuevoPrecio;
     }
-    public void pronto()
+    public void mostrarAviso()
     {
         System.out.println("#############");
         System.out.println("Por favor, insrta la cantidad de dinero correcta");
