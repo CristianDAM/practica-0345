@@ -54,6 +54,7 @@ public class TicketMaquina
     {
         balance = balance + cantidad;
     }
+   
 
     /**
      * Print a ticket.
@@ -78,5 +79,17 @@ public class TicketMaquina
     public int obtenerTotal()
     {
         return total;
+    }
+    public void fijarPrecio(int nuevoPrecio)
+    {
+         precio = nuevoPrecio;
+    }
+    public void pronto()
+    {
+        System.out.println("#############");
+        System.out.println("Por favor, insrta la cantidad de dinero correcta");
+        System.out.println("#############");
+    
+    
     }
 }
